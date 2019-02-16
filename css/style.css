@@ -1,0 +1,53 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", Arial;
+    line-height: 1.6;
+    color: #04080F;
+    background-color: white; }
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch; }
+#title {
+    flex: 0 0 100%;
+    text-align: center;
+    background-color: #EA3546;
+    background-image: url(../images/ronald.png);
+    background-size: 50% auto;
+    background-position: right top;
+    background-repeat: no-repeat; }
+#title h1 {
+    margin: 7.5rem 0;
+    font-size: 1.8em;
+    color: whitesmoke; }
+#img-div {
+    flex: 0 0 20%;
+    text-align: center; }
+#image {
+    margin: 2.5rem; }
+#img-caption {
+    margin: 0 2.5rem;
+    font-size: 1em; }
+#tribute-info {
+    flex: 0 0 60%;
+    background-color: white; }
+#tribute-info h1, #tribute-info h2, #tribute-info p {
+    margin: 2.5rem; }
+#tribute-info h1 { font-size: 1.4em; color: #EA3546; }
+#tribute-info h2 { font-size: 1.2em; color: #EA3546; }
+#tribute-info p { font-size: 1em; }
+#footer {
+    flex: 0 0 100%;
+    padding: 1rem;
+    font-size: 0.8em;
+    color: whitesmoke !important;
+    text-align: center;
+    background-color: #EA3546; }
+ul {
+    margin-left: 1.5rem;
+    list-style: circle inside;
+    color: #EA3546; }
