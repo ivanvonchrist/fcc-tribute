@@ -24,30 +24,36 @@ html, body {
     margin: 7.5rem 0;
     font-size: 1.8em;
     color: whitesmoke; }
-#img-div {
-    flex: 0 0 20%;
-    text-align: center; }
-#image {
-    margin: 2.5rem; }
-#img-caption {
-    margin: 0 2.5rem;
-    font-size: 1em; }
 #tribute-info {
-    flex: 0 0 60%;
+    flex: 0 0 50%;
     background-color: white; }
 #tribute-info h1, #tribute-info h2, #tribute-info p {
     margin: 2.5rem; }
 #tribute-info h1 { font-size: 1.4em; color: #EA3546; }
 #tribute-info h2 { font-size: 1.2em; color: #EA3546; }
 #tribute-info p { font-size: 1em; }
+#img-div {
+    text-align: center; }
+#image {
+    margin: 1.5rem; }
+#img-caption {
+    margin: 0 1.5rem;
+    font-size: 0.8em; }
 #footer {
     flex: 0 0 100%;
-    padding: 1rem;
     font-size: 0.8em;
     color: whitesmoke !important;
     text-align: center;
     background-color: #EA3546; }
 ul {
-    margin-left: 1.5rem;
+    margin: 0 1.5rem;
     list-style: circle inside;
     color: #EA3546; }
+@media (max-width: 768px) {
+    #tribute-info, #img-div {
+        flex: 0 0 100%; }
+    #tribute-info h1, #tribute-info h2, #tribute-info p {
+        margin: 1rem; }
+    ul {
+        margin: 0 1rem;
+        padding: 0; }
